@@ -620,7 +620,7 @@ a:hover, a:active {
 --------------------------------------------------------------*/
 .menu a {
   text-decoration: none;
-  color: white;
+  color: silver;
   border-bottom: 1px solid white;
   font-size: 1rem;
   padding: 0.5rem;
@@ -678,25 +678,25 @@ a:hover, a:active {
 }
 
 .rectangle:nth-child(1) {
-  background-color: #e54792;
+  background-color: #3a3a3a;
   -webkit-animation: anim1 0.5s;
           animation: anim1 0.5s;
 }
 
 .rectangle:nth-child(2) {
-  background-color: #f59723;
+  background-color: #3a3a3a;
   -webkit-animation: anim2 0.5s 0.5s backwards;
           animation: anim2 0.5s 0.5s backwards;
 }
 
 .rectangle:nth-child(3) {
-  background-color: #58b34c;
+  background-color: #3a3a3a;
   -webkit-animation: anim3 0.5s 1s backwards;
           animation: anim3 0.5s 1s backwards;
 }
 
 .rectangle:nth-child(4) {
-  background-color: #006d98;
+  background-color: #3a3a3a;
   font-size: 1em;
   /* max-height : 20vh;*/
   -webkit-animation: animGo 1s 1.5s backwards;
@@ -885,6 +885,7 @@ a:hover, a:active {
 --------------------------------------------------------------*/
 html {
   font-size: 0.8em;
+  background-color: grey !important;
 }
 
 body {
@@ -899,6 +900,7 @@ body {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  background-color: grey !important;
 }
 
 .global {
@@ -920,6 +922,7 @@ body {
   transition: transform 1s;
   transition: transform 1s, -webkit-transform 1s;
   /*	overflow-x: hidden; */
+  background-color: grey !important;
 }
 
 .boutonBurger {
@@ -1003,10 +1006,11 @@ body {
   -ms-grid-row: 5;
   -ms-grid-column: 1;
   grid-area: footer;
+  bottom: 0;
 }
 
 .conteneur {
-  background-color: #fff;
+  background-color: grey !important;
   color: #444;
 }
 
@@ -1103,7 +1107,7 @@ body {
 
 .header,
 .footer {
-  background-color: #757575;
+  background-color: #414141;
 }
 
 .sidebar2 {

@@ -1,6 +1,6 @@
 html {
 	font-size : 0.8em;
-	
+	background-color: grey !important
 }
 
 body {
@@ -10,7 +10,7 @@ body {
 	/*Conteneur flex en colonne*/
 	display: flex;
 	flex-direction: column; 
-	
+	background-color: grey !important
 }
 
 .global {
@@ -24,6 +24,7 @@ body {
 	/*Effet de transition sur la transformation*/
 	transition: transform 1s;
 	/*	overflow-x: hidden; */
+	background-color: grey !important
 	}
 
 	.boutonBurger {
@@ -86,10 +87,11 @@ body {
 
 .footer {
 	grid-area: footer;
+	bottom: 0;
 }
 
 .conteneur {
-	background-color: #fff;
+	background-color: grey !important;
 	color: #444;
 }
 /* conteneur est un élément flex et en même temps un conteneur grid */
@@ -190,7 +192,7 @@ body {
 
 .header,
 .footer {
-	background-color: rgb(117, 117, 117);
+	background-color: rgb(65, 65, 65);
 }
 
 .sidebar2 {
