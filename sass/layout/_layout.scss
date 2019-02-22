@@ -1,9 +1,16 @@
+@font-face {
+    font-family: 'Bebas';
+    src: url(../../img/BebasNeue-Regular.otf);
+}
+
 html {
 	font-size : 0.8em;
 	
 	overflow-x: none;
 	overflow-y: none;
-	max-height: 100vh
+	max-height: 100vh;
+
+	font-family: 'Bebas'
 }
 
 body {
@@ -16,7 +23,8 @@ body {
 	
 	overflow-x: none;
 	overflow-y: none;
-	max-height: 100vh
+	max-height: 100vh;
+	font-family: 'Bebas'
 }
 
 .global {
