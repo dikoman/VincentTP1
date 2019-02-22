@@ -1060,9 +1060,7 @@ body {
   }
   .menu {
     /*Propriété comme item flex - ne peut s'étirer en hauteur*/
-    width: 97vw;
-    margin-bottom: 10px;
-    border-radius: 10px;
+    width: 100vw;
     -webkit-box-flex: 0;
         -ms-flex: 0 0 100%;
             flex: 0 0 100%;
@@ -1077,7 +1075,7 @@ body {
   }
   .menu a {
     border: none;
-    border-left: 1px solid white;
+    border-left: 1px solid #333333;
     /*Propriété comme item flex - peut s'étirer en largeur*/
     -webkit-box-flex: 1;
         -ms-flex: 1 0 auto;
@@ -1105,7 +1103,7 @@ body {
 
 .header,
 .footer {
-  background-color: #999;
+  background-color: #757575;
 }
 
 .sidebar2 {
