@@ -885,7 +885,6 @@ a:hover, a:active {
 --------------------------------------------------------------*/
 html {
   font-size: 0.8em;
-  background-color: grey !important;
   overflow-x: none;
   overflow-y: none;
   max-height: 100vh;
@@ -903,7 +902,6 @@ body {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  background-color: grey !important;
   overflow-x: none;
   overflow-y: none;
   max-height: 100vh;
@@ -928,7 +926,6 @@ body {
   transition: transform 1s;
   transition: transform 1s, -webkit-transform 1s;
   /*	overflow-x: hidden; */
-  background-color: grey !important;
   text-align: center;
   overflow-x: none;
   overflow-y: none;
@@ -1016,11 +1013,16 @@ body {
 }
 
 .conteneur {
-  background-color: grey !important;
   color: #444;
   overflow-x: none;
   overflow-y: none;
   background-image: url("../../img/screenshot000.png");
+  /* Full height */
+  height: 100%;
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 /* conteneur est un élément flex et en même temps un conteneur grid */
@@ -1107,7 +1109,6 @@ body {
 }
 
 .box {
-  background-color: #444;
   color: #fff;
   border-radius: 5px;
   padding: 10px;
@@ -1116,7 +1117,7 @@ body {
 
 .header,
 .footer {
-  background-color: #414141;
+  /*background-color: rgb(65, 65, 65);*/
 }
 
 /*.sidebar2 {
