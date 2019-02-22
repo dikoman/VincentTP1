@@ -1,6 +1,8 @@
 html {
 	font-size : 0.8em;
-	background-color: grey !important
+	background-color: grey !important;
+	overflow-x: none;
+	overflow-y: none;
 }
 
 body {
@@ -10,7 +12,9 @@ body {
 	/*Conteneur flex en colonne*/
 	display: flex;
 	flex-direction: column; 
-	background-color: grey !important
+	background-color: grey !important;
+	overflow-x: none;
+	overflow-y: none;
 }
 
 .global {
@@ -24,7 +28,10 @@ body {
 	/*Effet de transition sur la transformation*/
 	transition: transform 1s;
 	/*	overflow-x: hidden; */
-	background-color: grey !important
+	background-color: grey !important;
+	text-align: center;
+	overflow-x: none;
+		overflow-y: none;
 	}
 
 	.boutonBurger {
@@ -49,8 +56,8 @@ body {
 		display: flex;
 		flex-direction: column;
 		justify-content: center;
-		overflow-x: hidden;
-		overflow-y: auto;
+		overflow-x: none;
+		overflow-y: none;
 	}
 
 
@@ -87,12 +94,16 @@ body {
 
 .footer {
 	grid-area: footer;
-	bottom: 0;
+	position: relative;
+	
+	text-align: center;
 }
 
 .conteneur {
 	background-color: grey !important;
 	color: #444;
+	overflow-x: none;
+	overflow-y: none;
 }
 /* conteneur est un élément flex et en même temps un conteneur grid */
 .conteneur {
@@ -102,8 +113,8 @@ body {
 		flex: 1 0 100%;
 		/*Conteneur flex en colonne pour ses enfants*/
 		flex-flow: column nowrap;
-		overflow-x: hidden;
-		overflow-y: auto;
+		overflow-x: none;
+		overflow-y: none;
 
 		display: grid;
 		width : 100vw;
