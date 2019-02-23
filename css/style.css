@@ -29,7 +29,7 @@ Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
 --------------------------------------------------------------*/
 @font-face {
   font-family: 'Bebas';
-  src: url(../../img/BebasNeue-Regular.otf);
+  src: url(../img/BebasNeue-Regular.otf);
 }
 
 /*--------------------------------------------------------------
@@ -1092,7 +1092,7 @@ body {
   color: #444;
   overflow-x: none;
   overflow-y: none;
-  background-image: url("../../img/screenshot000.png");
+  background-image: url("../img/screenshot000.png");
   /* Full height */
   height: 100%;
   /* Center and scale the image nicely */
