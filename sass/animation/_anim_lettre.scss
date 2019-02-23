@@ -8,6 +8,12 @@
     animation: animationLettre .5s both;
 }
 
+.mot>div :nth-child(2){
+    font-size: 9vw;
+    text-shadow: 6px 2px 6px rgba(0, 0, 0, 0.7);
+    animation: animationDeux .5s both;
+}
+
 
 
 @keyframes animationLettre {
