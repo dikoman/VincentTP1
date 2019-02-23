@@ -19,8 +19,6 @@ export class AnimLettre {
 
         this.lesLettres = lesLettres;
 
-        this.lesLettres2 = lesLettres2;
-
         this.elmParent = elmParent;
         this.fonction = fonction;
         console.log('debut')
@@ -48,14 +46,14 @@ animerLettre(lesLettres) {
 }
 
 
-animerLettreDeux(lesLettres2) {
-    console.log('lettre = ' +lesLettres2)
+animerLettreDeux(lesLettres) {
+    console.log('lettre = ' +lesLettres)
    let elmConteneur = this.creerElement(this.elmParent,
        'section',
        '',
        'mot')
    let i = 0 
-   for (let uneLettre of lesLettres2)
+   for (let uneLettre of lesLettres)
    {
        let elmlettre = this.creerElement(elmConteneur,
            'div',

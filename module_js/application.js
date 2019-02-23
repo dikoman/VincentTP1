@@ -15,7 +15,7 @@ function animationLettre()
     /* Une fois que l'animation des mots est terminé la fonction animLettre s'exécutera */ 
 	console.log('debut animation lettre')
 	const lesLettres = 'Vincent-Gagnon'
- 	let  monAnimLettre = new AnimLettre(lesLettres, elmHeader, finAnim)	
+ 	let  monAnimLettre = new AnimLettre(lesLettres, elmHeader, animationDeux)	
 }
 
 
@@ -23,8 +23,8 @@ function animationDeux()
 {
     /* Une fois que l'animation des mots est terminé la fonction animLettre s'exécutera */ 
 	console.log('debut animation Deux')
-	const lesLettres2 = 'Portfolio'
- 	let  monAnimLettre = new AnimLettre(lesLettres2, elmHeader, finAnim)	
+	const lesLettres = 'Portfolio'
+ 	let  monAnimLettre = new AnimLettre(lesLettres, elmHeader, finAnim)	
 }
 
 function finAnim()
