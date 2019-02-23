@@ -3,14 +3,21 @@
     src: url(../../img/BebasNeue-Regular.otf);
 }
 
+.mot{
+	width: 100vw;
+	display: flex;
+	justify-content: center;
+	text-align: center
+}
+
 html {
 	font-size : 0.8em;
 	
 	overflow-x: none;
 	overflow-y: none;
 	max-height: 100vh;
-
-	font-family: 'Bebas'
+	
+	font-family: $font_Bebas_Vincent
 }
 
 body {
@@ -21,8 +28,8 @@ body {
 	display: flex;
 	flex-direction: column; 
 	
-	overflow-x: none;
-	overflow-y: none;
+	overflow-x: none !important;
+	overflow-y: none !important;
 	max-height: 100vh;
 	font-family: 'Bebas'
 }
@@ -156,11 +163,14 @@ body {
 		grid-template-columns: 20% auto;
 		grid-template-areas:
 			"header   header"
-			"sidebar  content"
-			"sidebar2 sidebar2"
+			"content content"
 			"footer   footer";
 
 		min-width: 500px;
+	}
+
+	.CentrePage{
+		font-size: 3em !important;
 	}
 }
 

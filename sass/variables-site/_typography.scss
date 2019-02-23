@@ -5,3 +5,9 @@ $font__line-height-body: 1.5;
 $font__line-height-pre: 1.6;
 
 
+@font-face {
+    font-family: 'Bebas';
+    src: url(../../img/BebasNeue-Regular.otf);
+}
+
+$font_Bebas_Vincent: "Bebas"

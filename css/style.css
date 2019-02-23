@@ -27,6 +27,11 @@ Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
 # Variable
 # mixins-master    
 --------------------------------------------------------------*/
+@font-face {
+  font-family: 'Bebas';
+  src: url(../../img/BebasNeue-Regular.otf);
+}
+
 /*--------------------------------------------------------------
 # Normalize
 --------------------------------------------------------------*/
@@ -645,6 +650,9 @@ a:hover, a:active {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   width: 100vw;
+  left: 0;
+  margin-left: 0;
+  padding-left: 0;
 }
 
 .rectangle {
@@ -888,12 +896,23 @@ a:hover, a:active {
   src: url(../../img/BebasNeue-Regular.otf);
 }
 
+.mot {
+  width: 100vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+}
+
 html {
   font-size: 0.8em;
   overflow-x: none;
   overflow-y: none;
   max-height: 100vh;
-  font-family: 'Bebas';
+  font-family: "Bebas";
 }
 
 body {
@@ -908,8 +927,8 @@ body {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  overflow-x: none;
-  overflow-y: none;
+  overflow-x: none !important;
+  overflow-y: none !important;
   max-height: 100vh;
   font-family: 'Bebas';
 }
@@ -1063,8 +1082,11 @@ body {
   .conteneur {
     -ms-grid-columns: 20% auto;
         grid-template-columns: 20% auto;
-        grid-template-areas: "header   header" "sidebar  content" "sidebar2 sidebar2" "footer   footer";
+        grid-template-areas: "header   header" "content content" "footer   footer";
     min-width: 500px;
+  }
+  .CentrePage {
+    font-size: 3em !important;
   }
 }
 
