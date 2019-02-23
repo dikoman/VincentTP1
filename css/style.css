@@ -1019,6 +1019,10 @@ body {
   text-align: center;
 }
 
+.CentrePage {
+  font-size: 2em !important;
+}
+
 .conteneur {
   color: #444;
   overflow-x: none;
