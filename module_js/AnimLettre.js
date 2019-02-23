@@ -14,9 +14,15 @@ export class AnimLettre {
 
     constructor(lesLettres, elmParent, fonction) {
         this.tabCouleur = ['#444','#444','#444','#444','#444','#444'];
-        this.lesLettres = lesLettres
+
+        this.tabCouleur2 = ['#222','#222','#222','#222','#222','#222'];
+
+        this.lesLettres = lesLettres;
+
+        this.lesLettres2 = lesLettres2;
+
         this.elmParent = elmParent;
-        this.fonction = fonction
+        this.fonction = fonction;
         console.log('debut')
         this.animerLettre(this.lesLettres)
     }
@@ -39,10 +45,27 @@ animerLettre(lesLettres) {
         elmlettre.style.color = this.tabCouleur[(i++) % 6]
     }
 
-
-
 }
 
+
+animerLettreDeux(lesLettres2) {
+    console.log('lettre = ' +lesLettres2)
+   let elmConteneur = this.creerElement(this.elmParent,
+       'section',
+       '',
+       'mot')
+   let i = 0 
+   for (let uneLettre of lesLettres2)
+   {
+       let elmlettre = this.creerElement(elmConteneur,
+           'div',
+           uneLettre,
+           '')
+       elmlettre.style.animationDelay = (i * 0.1) + "s";
+       elmlettre.style.color = this.tabCouleur[(i++) % 6]
+   }
+
+}
 
 
     creerElement(elmParent, balise, contenu, classCSS) {
