@@ -1,7 +1,4 @@
-@font-face {
-    font-family: 'Bebas';
-    src: url(../../img/BebasNeue-Regular.otf);
-}
+
 
 .mot{
 	width: 100vw;
@@ -16,7 +13,7 @@ html {
 	overflow-x: none;
 	overflow-y: none;
 	max-height: 100vh;
-	
+
 	font-family: $font_Bebas_Vincent
 }
 
@@ -234,10 +231,7 @@ body {
 	font-size: 150%;
 }
 
-.header,
-.footer {
-	/*background-color: rgb(65, 65, 65);*/
-}
+
 
 /*.footer{
 	position : absolute;

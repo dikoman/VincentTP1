@@ -854,8 +854,8 @@ a:hover, a:active {
   }
   50% {
     /* opacity:  .5; */
-    -webkit-transform: translateY(30vw) rotate(180deg) scale(1.5);
-            transform: translateY(30vw) rotate(180deg) scale(1.5);
+    -webkit-transform: translateY(-130vw) rotate(180deg) scale(1.5);
+            transform: translateY(-130vw) rotate(180deg) scale(1.5);
     -webkit-animation-timing-function: cubic-bezier(0.09, 0.25, 0.19, 1.01);
             animation-timing-function: cubic-bezier(0.09, 0.25, 0.19, 1.01);
   }
@@ -876,8 +876,8 @@ a:hover, a:active {
   }
   50% {
     /* opacity:  .5; */
-    -webkit-transform: translateY(30vw) rotate(180deg) scale(1.5);
-            transform: translateY(30vw) rotate(180deg) scale(1.5);
+    -webkit-transform: translateY(-130vw) rotate(180deg) scale(1.5);
+            transform: translateY(-130vw) rotate(180deg) scale(1.5);
     -webkit-animation-timing-function: cubic-bezier(0.09, 0.25, 0.19, 1.01);
             animation-timing-function: cubic-bezier(0.09, 0.25, 0.19, 1.01);
   }
@@ -891,11 +891,6 @@ a:hover, a:active {
 /*--------------------------------------------------------------
 # layout
 --------------------------------------------------------------*/
-@font-face {
-  font-family: 'Bebas';
-  src: url(../../img/BebasNeue-Regular.otf);
-}
-
 .mot {
   width: 100vw;
   display: -webkit-box;
@@ -1146,11 +1141,6 @@ body {
   border-radius: 5px;
   padding: 10px;
   font-size: 150%;
-}
-
-.header,
-.footer {
-  /*background-color: rgb(65, 65, 65);*/
 }
 
 /*.footer{
